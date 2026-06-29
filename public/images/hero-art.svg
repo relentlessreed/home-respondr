@@ -1,0 +1,17 @@
+<svg width="1600" height="1200" viewBox="0 0 1600 1200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1600" height="1200" fill="#D8CFC1"/>
+  <rect y="727" width="1600" height="473" fill="#1A2A3A"/>
+  <rect x="133" y="157" width="1334" height="886" fill="#F3EEE6"/>
+  <rect x="133" y="157" width="1334" height="886" stroke="#1A2A3A" stroke-opacity="0.12" stroke-width="10"/>
+  <rect x="236" y="271" width="527" height="560" fill="#A63A24"/>
+  <rect x="815" y="271" width="549" height="217" fill="#1A2A3A"/>
+  <rect x="815" y="535" width="549" height="296" fill="#E8DECF"/>
+  <path d="M967 374H1210" stroke="#E1B24A" stroke-width="18"/>
+  <path d="M967 625H1242" stroke="#A63A24" stroke-width="16"/>
+  <path d="M967 682H1158" stroke="#A63A24" stroke-opacity="0.55" stroke-width="16"/>
+  <path d="M967 739H1200" stroke="#A63A24" stroke-opacity="0.35" stroke-width="16"/>
+  <path d="M371 467H628V557H531V739H468V557H371V467Z" fill="#F3EEE6"/>
+  <path d="M457 399L499 353L541 399V436H457V399Z" fill="#E1B24A"/>
+  <text x="814" y="338" fill="#F3EEE6" font-family="Arial, sans-serif" font-size="55" font-weight="700" letter-spacing="6">HOMERESPONDR</text>
+  <text x="813" y="927" fill="#F3EEE6" font-family="Arial, sans-serif" font-size="42" font-weight="700" letter-spacing="4">CALL (785) 503-3425</text>
+</svg>

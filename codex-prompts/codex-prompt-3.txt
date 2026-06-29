@@ -1,0 +1,49 @@
+You are doing the final polish/review pass for this local business demo website.
+
+Use the current working directory as the project folder.
+
+Goal:
+Make the website look more custom, more sellable, and more ready to show to the business owner.
+
+Tasks:
+
+1. Inspect the current site structure.
+2. Inspect src/lib/business-config.ts.
+3. Inspect public/images.
+4. Confirm the page uses real scraped business info and images.
+5. Improve the hero section copy if it feels generic.
+6. Improve service cards so they match the actual business.
+7. Improve about/trust copy without inventing fake claims.
+8. Make sure CTAs are clear:
+
+   * Call Now
+   * Request a Quote
+   * Send Message
+9. Improve mobile layout if needed.
+10. Improve spacing, contrast, typography, and image cropping if needed.
+11. Confirm contact form is still working structurally.
+12. Run npm run lint.
+13. Run npm run build.
+14. Fix all errors.
+15. Commit changes with:
+    Final polish pass
+16. Push to origin main.
+
+Rules:
+
+* Do not invent fake reviews.
+* Do not invent fake awards.
+* Do not invent certifications.
+* Do not invent years in business.
+* Do not use stock images.
+* Do not commit .env or secrets.
+* Keep the design professional and clean.
+* Prioritize making this feel like a real custom website, not a template.
+
+Before finishing, report:
+
+* what was improved
+* lint status
+* build status
+* GitHub push status
+* anything I should manually review before contacting the business

@@ -1,0 +1,12 @@
+<svg width="1400" height="900" viewBox="0 0 1400 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1400" height="900" fill="#E8DECF"/>
+  <rect x="95" y="96" width="1210" height="708" fill="#1A2A3A"/>
+  <rect x="171" y="170" width="1058" height="560" fill="#F3EEE6"/>
+  <rect x="250" y="253" width="374" height="395" fill="#E1B24A"/>
+  <rect x="682" y="253" width="468" height="150" fill="#A63A24"/>
+  <rect x="682" y="440" width="468" height="208" fill="#F7F2EA"/>
+  <text x="723" y="348" fill="#F3EEE6" font-family="Arial, sans-serif" font-size="56" font-weight="700" letter-spacing="5">PHONE FIRST</text>
+  <path d="M726 521H1075" stroke="#1A2A3A" stroke-width="16"/>
+  <path d="M726 578H1112" stroke="#1A2A3A" stroke-opacity="0.55" stroke-width="16"/>
+  <path d="M726 635H1018" stroke="#1A2A3A" stroke-opacity="0.3" stroke-width="16"/>
+</svg>

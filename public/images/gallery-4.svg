@@ -1,0 +1,13 @@
+<svg width="1400" height="900" viewBox="0 0 1400 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1400" height="900" fill="#1A2A3A"/>
+  <rect x="92" y="94" width="1216" height="712" fill="#F3EEE6"/>
+  <rect x="178" y="176" width="437" height="548" fill="#F7F2EA"/>
+  <rect x="663" y="176" width="557" height="548" fill="#E8DECF"/>
+  <path d="M293 307H500" stroke="#A63A24" stroke-width="16"/>
+  <path d="M293 374H543" stroke="#A63A24" stroke-opacity="0.55" stroke-width="16"/>
+  <path d="M293 441H468" stroke="#A63A24" stroke-opacity="0.3" stroke-width="16"/>
+  <rect x="747" y="269" width="392" height="127" fill="#A63A24"/>
+  <rect x="747" y="443" width="392" height="194" fill="#1A2A3A"/>
+  <text x="793" y="348" fill="#F3EEE6" font-family="Arial, sans-serif" font-size="54" font-weight="700" letter-spacing="5">FOLLOW</text>
+  <text x="793" y="525" fill="#F3EEE6" font-family="Arial, sans-serif" font-size="54" font-weight="700" letter-spacing="5">THROUGH</text>
+</svg>

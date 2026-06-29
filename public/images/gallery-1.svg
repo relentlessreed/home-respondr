@@ -1,0 +1,13 @@
+<svg width="1400" height="900" viewBox="0 0 1400 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1400" height="900" fill="#1A2A3A"/>
+  <rect x="82" y="85" width="1236" height="730" fill="#F3EEE6"/>
+  <rect x="82" y="85" width="1236" height="730" stroke="#E1B24A" stroke-width="8"/>
+  <rect x="157" y="169" width="410" height="560" fill="#A63A24"/>
+  <path d="M250 360H474V439H388V598H337V439H250V360Z" fill="#F3EEE6"/>
+  <path d="M325 309L362 269L399 309V340H325V309Z" fill="#E1B24A"/>
+  <text x="645" y="285" fill="#1A2A3A" font-family="Arial, sans-serif" font-size="72" font-weight="700" letter-spacing="5">QUICK</text>
+  <text x="645" y="370" fill="#1A2A3A" font-family="Arial, sans-serif" font-size="72" font-weight="700" letter-spacing="5">CALLBACK</text>
+  <path d="M646 476H1126" stroke="#A63A24" stroke-width="16"/>
+  <path d="M646 536H1042" stroke="#A63A24" stroke-opacity="0.55" stroke-width="16"/>
+  <path d="M646 596H1082" stroke="#A63A24" stroke-opacity="0.3" stroke-width="16"/>
+</svg>

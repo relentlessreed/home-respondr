@@ -1,0 +1,424 @@
+  # Codex Prompt — Build Local Business Website
+
+  You are an autonomous senior full-stack engineer responsible for building one
+  complete, production-quality demo website for a local business.
+
+  Build a finished website that is ready to show the business owner immediately.
+
+  ## Project Scope
+
+  - Use the current working directory as the project.
+  - Do not create another project directory.
+  - All work must happen inside the current project folder.
+
+  ## Canonical Template
+
+  Canonical template path:
+
+  `C:\Users\Edwar\Desktop\code\local-business-foundation`
+
+  Rules:
+
+  - The canonical template is read-only for website build work.
+  - Never modify, rename, move, delete, or initialize git inside it while building a
+  client website.
+  - Only inspect and read from it when initializing or referencing the foundation.
+  - Make all website edits only in the current project.
+
+  ## Required Initialization
+
+  Assume the current project initially contains only:
+
+  - `scraped-business-information.txt`
+  - `scraped-images/`
+  - `scrapted-images/`
+  - `codex-prompts/`
+  - `.git/` optionally
+
+  Your first task is to initialize the current project from the canonical template.
+
+  Copy the full contents of `C:\Users\Edwar\Desktop\code\local-business-foundation`
+  into the current project.
+
+  Preserve:
+
+  - `.git/`
+  - `scraped-business-information.txt`
+  - `scraped-images/`
+  - `scrapted-images/`
+  - `codex-prompts/`
+
+  Important initialization rule:
+
+  - If the current project already contains its own `.git/`, preserve it exactly.
+  - Do not overwrite, replace, remove, move, or alter the current project’s `.git/`.
+  - Do not copy the canonical template’s `.git/` into the current project.
+  - If copying from the canonical template would also copy its `.git/`, exclude that
+  directory explicitly.
+
+  After initialization, the current project must contain a working Next.js app
+  including:
+
+  - `package.json`
+  - `src/`
+  - `public/`
+  - `next.config.ts`
+  - `tsconfig.json`
+  - `tailwind.config.ts`
+  - `README.md`
+
+  Maintain the template architecture unless this business requires a targeted
+  improvement.
+
+  ## GitHub
+
+  A GitHub repository already exists.
+
+  - Do not create another repository.
+  - Infer the repo name from the current folder.
+  - Do not execute any git commands.
+
+  Pattern:
+
+  - Folder: `C:\Users\Edwar\Desktop\code\gold-ducts-cleaning`
+  - Repo: `https://github.com/relentlessreed/gold-ducts-cleaning`
+
+  Important repo rule:
+
+  - Treat the current project as an existing repo-backed project even if `.git/` is
+  missing locally.
+  - Never initialize a new git repository as part of website build work.
+  - If `.git/` is missing, note that clearly in the final report instead of attempting
+  to fix it with git commands.
+
+  ## Business Assets
+
+  Inspect:
+
+  - `scraped-business-information.txt`
+
+  Inspect all images in:
+
+  - `scraped-images/`
+
+  If `scraped-images/` does not exist, use:
+
+  - `scrapted-images/`
+
+  If both exist, always prefer:
+
+  - `scraped-images/`
+
+  Select:
+
+  - company logo
+  - hero image
+  - about image
+  - gallery images
+
+  Rules:
+
+  - Use only scraped business assets.
+  - Do not use outside stock photography.
+
+  ## Business Configuration
+
+  Populate the site from the scraped business information.
+
+  Configure:
+
+  - business name
+  - tagline
+  - phone
+  - email
+  - address
+  - service area
+  - business hours
+  - services
+  - about section
+  - call-to-action text
+  - colors
+  - image paths
+
+  Primary config file:
+
+  - `src/lib/business-config.ts`
+
+  Keep business-specific content centralized there whenever practical.
+
+  If the scraped business information file is empty or incomplete:
+
+  - Extract every hard fact you can from the available scraped images and branding.
+  - You may infer obvious brand facts visible in assets such as business name, phone
+  number, website URL, and visible service categories.
+  - If a fact is not actually present, do not invent it.
+  - For missing details, write tasteful marketing copy that avoids unverifiable claims.
+  - In the final report, clearly separate:
+    - confirmed business information
+    - information inferred from visible assets
+    - missing business information
+
+  ## Gallery Requirements
+
+  The gallery must be production-quality.
+
+  Every gallery image must be:
+
+  - clickable or tappable
+  - expandable in a modal or lightbox
+  - navigable with visible left and right controls
+  - swipeable on touch devices
+  - keyboard accessible
+  - closable with a button and Escape key
+
+  The expanded gallery must support:
+
+  - next and previous navigation
+  - clear image state or position awareness
+  - smooth mobile interaction
+  - responsive behavior
+  - proper accessibility and focus handling
+
+  Do not leave the gallery as static decorative images.
+
+  Implement this cleanly with reusable components and no unnecessary dependencies.
+
+  ## README
+
+  Replace the template README completely.
+
+  The README must look like it belongs to the client project.
+
+  Never mention:
+
+  - template
+  - Codex
+  - AI
+  - scraped data
+  - placeholder
+  - reusable template
+  - local-business-foundation
+
+  Title the README with the business name.
+
+  Include:
+
+  - business description
+  - services
+  - technology stack
+  - local development instructions
+
+  ## Design Direction
+
+  The website must feel custom, polished, and client-ready.
+
+  It must not look generated, generic, or overly template-driven.
+
+  Direction:
+
+  - straight to the point
+  - beautiful and intentional
+  - strong typography
+  - premium local-service branding
+  - excellent spacing
+  - obvious calls to action
+  - sections that feel necessary and well placed
+  - minimal clutter
+  - clean visual hierarchy
+
+  Bias the design toward the feel of a polished local-service site similar in spirit to
+  rangerauto.
+
+  This is an important design instruction, not a vague preference:
+
+  - Look one level up from the current project for the nearby `rangerauto` project and
+  inspect it before finalizing the design.
+  - Compare layout rhythm, typography weight, section structure, CTA treatment, and
+  overall density.
+  - Emulate the spirit of that site’s directness and flatter composition, without
+  copying business-specific content.
+
+  Avoid defaulting to:
+
+  - card-heavy layouts
+  - repeated floating panels
+  - unnecessary boxed sections
+  - fake dashboard-like blocks
+  - decorative UI that hurts clarity
+  - bubble-like UI treatment used as a default
+
+  Use cards only when they are actually the best solution.
+
+  Favor instead:
+
+  - flatter section compositions
+  - strong horizontal structure
+  - image-and-copy splits
+  - slab-style info blocks when needed
+  - direct typography-led hierarchy
+  - fewer containers, better spacing
+
+  ## Design Goals
+
+  Prioritize:
+
+  - premium appearance
+  - excellent mobile responsiveness
+  - strong hero section
+  - obvious CTA
+  - trustworthy presentation
+  - polished image use
+  - accessibility
+  - fast loading
+
+  ## Content Rules
+
+  Never invent:
+
+  - reviews
+  - testimonials
+  - certifications
+  - licenses
+  - awards
+  - years in business
+  - employee count
+
+  Only use facts present in the scraped information or clearly visible in scraped
+  assets.
+
+  If information is missing, write tasteful marketing copy without making unverifiable
+  factual claims.
+
+  ## Contact Form
+
+  Preserve the existing contact form architecture.
+
+  Ensure `.env.example` contains exactly:
+
+  ```env
+  RESEND_API_KEY=
+  LEAD_EMAIL_TO=owner@example.com
+  LEAD_EMAIL_FROM=Business Name <contact@example.com>
+  NEXT_PUBLIC_SITE_URL=https://your-project.vercel.app
+  ```
+
+  Do not commit secrets.
+
+  Environment-variable handoff requirement:
+
+  - In the final report, include a Vercel Environment Variables section.
+  - That section must list the exact four variables above.
+  - Also explain which values still need manual replacement before deployment:
+      - RESEND_API_KEY
+      - LEAD_EMAIL_TO
+      - LEAD_EMAIL_FROM
+      - NEXT_PUBLIC_SITE_URL
+  - If the project folder name can be used to suggest a likely Vercel URL, include it
+    as an example only, not as a confirmed value.
+
+  ## Code Quality
+
+  - Maintain the template architecture.
+  - Prefer reusable components.
+  - Avoid duplication.
+  - Keep TypeScript accurate.
+  - Keep styling consistent where appropriate, but improve presentation when needed.
+  - Do not introduce unnecessary dependencies.
+
+  ## Command Restrictions
+
+  Do not run package managers, git, deployment commands, or destructive filesystem
+  commands.
+
+  Do not run:
+
+  - npm
+  - npx
+  - yarn
+  - pnpm
+  - git
+  - gh
+  - vercel
+  - rm
+
+  Read-only inspection commands are allowed if needed to examine the current project,
+  the canonical template, nearby reference projects, and scraped assets.
+
+  File-editing actions inside the current project are allowed.
+
+  I will manually:
+
+  - install dependencies
+  - run the dev server
+  - build
+  - commit
+  - push
+  - deploy
+
+  from PowerShell.
+
+  ## Final Asset Step
+
+  The final implementation step must be favicon creation.
+
+  Before finishing the project:
+
+  - create a favicon asset for the site
+  - base it on the company logo whenever possible
+  - if the exact logo does not work at small sizes, create the closest brand-faithful
+  simplified mark using only elements already present in the scraped branding
+  - optimize it for very small display sizes
+  - favor a condensed composition inside a circular radius for strong pop-out appeal in
+  browser tabs and bookmarks
+  - keep the favicon visually consistent with the company brand colors and identity
+  - include the favicon in the appropriate site metadata and asset files used by the
+  project
+
+  Do not skip favicon creation or leave the default template icon in place.
+
+  ## Template Improvements
+
+  If you improve reusable parts of the implementation such as:
+
+  - components
+  - styling
+  - responsiveness
+  - accessibility
+  - animations
+  - utilities
+  - architecture
+  - gallery behavior
+
+  make those improvements in this project only.
+
+  Do not modify the canonical template while building the client website.
+
+  Instead, include a Template Improvements section in the final report describing
+  exactly what should later be merged into:
+
+  C:\Users\Edwar\Desktop\code\local-business-foundation
+
+  ## Final Report
+
+  Before finishing, report:
+
+  - current project folder
+  - business name
+  - inferred GitHub repository
+  - whether .git/ was present in the current project at start
+  - whether .git/ is still present after initialization
+  - files created
+  - files modified
+  - images selected
+  - business information extracted
+  - business information inferred from visible assets
+  - missing business information
+  - README updated
+  - contact form preserved
+  - gallery or lightbox implemented
+  - favicon created and what source asset or brand element it was derived from
+  - Vercel environment variables
+  - template improvements
+  - manual PowerShell commands to run next
+
+  Finish only after all code edits are complete.

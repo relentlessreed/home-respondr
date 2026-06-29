@@ -1,0 +1,53 @@
+You are preparing this finished local business demo website for Vercel deployment.
+
+Use the current working directory as the project folder.
+
+Goal:
+Confirm this project is clean, buildable, pushed to GitHub, and ready to import into Vercel.
+
+Tasks:
+
+1. Confirm current working directory.
+2. Confirm package.json exists.
+3. Confirm .env.example exists.
+4. Confirm .env and .env.local are not committed.
+5. Confirm /api/contact exists and uses Resend.
+6. Confirm these env vars are referenced correctly:
+   RESEND_API_KEY
+   LEAD_EMAIL_TO
+   LEAD_EMAIL_FROM
+   NEXT_PUBLIC_SITE_URL
+7. Run npm install if needed.
+8. Run npm run lint.
+9. Run npm run build.
+10. Fix all errors.
+11. Check git status.
+12. Commit any final fixes with:
+    Prepare for Vercel deployment
+13. Push to origin main.
+
+Before finishing, report:
+
+* current project folder
+* GitHub remote URL
+* lint status
+* build status
+* whether secrets are safely excluded
+* whether contact form API route is ready
+* exact Vercel project settings
+* exact Vercel environment variables needed
+* post-deploy test steps
+
+Vercel settings to report should include:
+
+* Framework Preset: Next.js
+* Build Command: npm run build
+* Install Command: npm install
+* Output Directory: leave default
+* Root Directory: leave default unless this project is inside a monorepo
+
+For environment variables, tell me to set:
+RESEND_API_KEY=<my Resend API key>
+LEAD_EMAIL_TO=<where lead emails should go>
+LEAD_EMAIL_FROM=<verified sender email from Resend>
+NEXT_PUBLIC_SITE_URL=<final Vercel or domain URL>

@@ -1,0 +1,9 @@
+<svg width="1400" height="1000" viewBox="0 0 1400 1000" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1400" height="1000" fill="#F8FAFC"/>
+  <rect x="60" y="60" width="1280" height="880" rx="40" fill="#0B132B"/>
+  <rect x="130" y="150" width="520" height="700" rx="28" fill="#0F766E"/>
+  <rect x="720" y="150" width="520" height="220" rx="28" fill="#F59E0B" fill-opacity="0.88"/>
+  <rect x="720" y="410" width="520" height="440" rx="28" fill="#FFFFFF" fill-opacity="0.12"/>
+  <text x="170" y="240" fill="#FFFFFF" font-family="Arial, sans-serif" font-size="56" font-weight="700">About Placeholder</text>
+  <text x="170" y="330" fill="#D8F3F0" font-family="Arial, sans-serif" font-size="30">Use a team, founder, truck, or workspace image.</text>
+</svg>
