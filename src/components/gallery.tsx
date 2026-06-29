@@ -50,6 +50,7 @@ export function Gallery() {
   }, [activeIndex]);
 
   const activeItem = activeIndex === null ? null : businessConfig.gallery[activeIndex];
+  const currentIndex = activeIndex ?? 0;
 
   return (
     <section id="gallery" className="bg-white">
@@ -123,10 +124,14 @@ export function Gallery() {
               }
 
               if (delta > 0) {
-                setActiveIndex((activeIndex + 1) % businessConfig.gallery.length);
+                setActiveIndex((current) =>
+                  current === null ? current : (current + 1) % businessConfig.gallery.length,
+                );
               } else {
-                setActiveIndex(
-                  (activeIndex - 1 + businessConfig.gallery.length) % businessConfig.gallery.length,
+                setActiveIndex((current) =>
+                  current === null
+                    ? current
+                    : (current - 1 + businessConfig.gallery.length) % businessConfig.gallery.length,
                 );
               }
             }}
@@ -134,7 +139,7 @@ export function Gallery() {
             <div className="mb-3 flex items-center justify-between gap-4 text-white">
               <div>
                 <p className="text-xs font-extrabold uppercase tracking-[0.22em] text-[var(--color-accent)]">
-                  Image {activeIndex + 1} of {businessConfig.gallery.length}
+                  Image {currentIndex + 1} of {businessConfig.gallery.length}
                 </p>
                 <h3 className="mt-2 font-[var(--font-heading)] text-3xl uppercase leading-none tracking-[0.04em]">
                   {activeItem.title}
@@ -165,8 +170,10 @@ export function Gallery() {
                 aria-label="Previous image"
                 className="lightbox-arrow left-3"
                 onClick={() =>
-                  setActiveIndex(
-                    (activeIndex - 1 + businessConfig.gallery.length) % businessConfig.gallery.length,
+                  setActiveIndex((current) =>
+                    current === null
+                      ? current
+                      : (current - 1 + businessConfig.gallery.length) % businessConfig.gallery.length,
                   )
                 }
               >
@@ -177,7 +184,11 @@ export function Gallery() {
                 type="button"
                 aria-label="Next image"
                 className="lightbox-arrow right-3"
-                onClick={() => setActiveIndex((activeIndex + 1) % businessConfig.gallery.length)}
+                onClick={() =>
+                  setActiveIndex((current) =>
+                    current === null ? current : (current + 1) % businessConfig.gallery.length,
+                  )
+                }
               >
                 Next
               </button>
